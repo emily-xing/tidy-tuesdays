@@ -11,8 +11,8 @@ library(plotly)
 library(rsconnect)
 
 rsconnect::setAccountInfo(name='emilyx',
-                          token='16D0636507AB3B4EA31A97978661BB96',
-                          secret='v7bz5jKqKrBNN9ttBvsk0nyDnSnZI5gchx4oa2+O')
+                          token='TKN',
+                          secret='SECRET')
 
 
 exercise <- read_excel("data/week16_exercise.xlsx")
